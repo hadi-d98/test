@@ -16,8 +16,7 @@
     "appId": "com.github.hadi-d98.pto",
     "win": {
       "target": [
-        "nsis",
-        "zip"
+        "nsis"
       ]
     },
     "nsis": {
