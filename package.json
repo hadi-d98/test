@@ -9,10 +9,11 @@
     "production": "electron .",
     "pack": "electron-builder --dir",
     "dist": "electron-builder",
-    "postinstall": "electron-builder install-app-deps"
+    "postinstall": "electron-builder install-app-deps",
+    "release": "electron-builder --x64 -p always"
   },
   "build": {
-    "appId": "pto",
+    "appId": "com.github.hadi-d98.test",
     "win": {
       "target": [
         "nsis",

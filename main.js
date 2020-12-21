@@ -41,6 +41,20 @@ function createWindow() {
 }
 
 app.on('ready', function(){
-    autoUpdater.checkForUpdatesAndNotify(),
-    createWindow()
+    createWindow(),
+    autoUpdater.checkForUpdates();
 });
+
+autoUpdater.on('checking-for-update', () => {
+})
+autoUpdater.on('update-available', (info) => {
+})
+autoUpdater.on('update-not-available', (info) => {
+})
+autoUpdater.on('error', (err) => {
+})
+autoUpdater.on('download-progress', (progressObj) => {
+})
+autoUpdater.on('update-downloaded', (info) => {
+  autoUpdater.quitAndInstall();  
+})
