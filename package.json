@@ -27,7 +27,9 @@
   },
   "publish": [
     {
-      "provider": "github"
+      "provider": "github",
+      "owner": "hadi-d98",
+      "repo": "test"
     }
   ],
   "repository": {
