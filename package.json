@@ -23,11 +23,13 @@
   },
   "publish": [
     {
-      "provider": "github",
-      "owner": "hadi-d98",
-      "repo": "test"
+      "provider": "github"
     }
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hadi-d98/test.git"
+  },
   "author": "Hadi",
   "license": "ISC",
   "dependencies": {
