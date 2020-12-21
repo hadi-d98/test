@@ -27,7 +27,11 @@
   },
   "publish": [
     {
-      "provider": "github"
+      "provider": "github",
+      "private": true,
+      "owner": "hadi-d98",
+      "repo": "pto-user",
+      "token": "390ad95950b3b02796c24a32a27615c2a6305448"
     }
   ],
   "repository": {
