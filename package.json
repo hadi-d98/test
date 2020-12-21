@@ -1,0 +1,41 @@
+{
+  "name": "electron-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "production": "electron .",
+    "pack": "electron-builder --dir",
+    "publish": "electron-builder build --win --publish never",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "build": {
+    "appId": "pto",
+    "win": {
+      "target": "nsis"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
+  },
+  "publish": [
+    {
+      "provider": "github",
+      "owner": "hadi-d98",
+      "repo": "test2"
+    }
+  ],
+  "author": "Hadi",
+  "license": "ISC",
+  "dependencies": {
+    "electron-log": "^4.3.1",
+    "electron-updater": "^4.3.5"
+  },
+  "devDependencies": {
+    "electron": "^10.1.5",
+    "electron-builder": "^22.9.1"
+  }
+}
