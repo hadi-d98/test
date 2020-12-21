@@ -1,6 +1,6 @@
 {
   "name": "test",
-  "version": "1.0.14",
+  "version": "1.0.7",
   "description": "",
   "main": "main.js",
   "scripts": {
@@ -27,9 +27,7 @@
   },
   "publish": [
     {
-      "provider": "github",
-      "owner": "hadi-d98",
-      "repo": "test"
+      "provider": "github"
     }
   ],
   "repository": {
