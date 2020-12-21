@@ -13,7 +13,7 @@
     "release": "electron-builder --x64 -p always"
   },
   "build": {
-    "appId": "com.github.hadi-d98.test",
+    "appId": "com.github.hadi-d98.pto",
     "win": {
       "target": [
         "nsis",
