@@ -1,6 +1,6 @@
 {
   "name": "test",
-  "version": "1.0.12",
+  "version": "1.0.9",
   "description": "",
   "main": "main.js",
   "scripts": {
@@ -27,13 +27,13 @@
   },
   "publish": [
     {
-      "provider": "github",
-      "private": true,
-      "owner": "hadi-d98",
-      "repo": "pto-user",
-      "token": "390ad95950b3b02796c24a32a27615c2a6305448"
+      "provider": "github"
     }
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hadi-d98/test.git"
+  },
   "author": "Hadi",
   "license": "ISC",
   "dependencies": {
